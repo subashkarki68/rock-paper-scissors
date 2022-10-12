@@ -14,7 +14,9 @@ const computer_weapon = document.querySelector("#computer_weapon");
 weapons_container.forEach((element) => {
   element.addEventListener("click", () => {
     computer_weapon.src = `images/icon_${computerSelection}.png`;
-    playRound(element.id, computerSelection);
+    setTimeout(function () {
+      playRound(element.id, computerSelection);
+    }, 1000);
   });
 });
 
