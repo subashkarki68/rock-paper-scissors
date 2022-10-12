@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper & Scissors</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Rock, Paper and Scissors War</h1>
+      <h2>
+        You: <span id="player_score">0</span> | Computer:
+        <span id="computer_score">0</span>
+      </h2>
+      <h3>Choose your weapon against computer:</h3>
+      <div class="weapon-container">
+        <img src="images/icon_rock.png" id="rock" alt="rock" class="weapons" />
+        <img
+          src="images/icon_paper.png"
+          id="paper"
+          alt="paper"
+          class="weapons"
+        />
+        <img
+          src="images/icon_scissors.png"
+          id="scissors"
+          alt="scissors"
+          class="weapons"
+        />
+      </div>
+      <div class="computer-weapon-container">
+        <h3>Computer's Weapon:</h3>
+        <img
+          src="images/Spinner-1s-200px.gif"
+          id="computer_weapon"
+          alt="computer-weapon"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weapon-container img, .computer-weapon-container img{
+    width:100px;
+    height:100px;
+    border: 2px solid red;
+    object-fit: contain;
+    padding: 20px;
+    margin:20px;
+}
+
+.weapon-container img:hover{
+    background: rgba(219, 30, 30, 0.4);
+    cursor: pointer;
+}
+
+.computer-weapon-container h3{
+    text-align: center;
+}
